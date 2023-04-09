@@ -12,13 +12,14 @@ The output is saved in an Excel file with separate columns for datetime, engine,
 
 ## Usage
 
-1. [Register for an API key.](https://platform.openai.com/account/api-keys).
+1. [Register for an API key.](https://platform.openai.com/account/api-keys)
 2. Install the required dependencies, including the `openai` package, via the requirements.txt file.
-3. Update the `api_key` variable in the script to refer to the name/location of your API key.
+3. Update the `api_key` variable in the script to reflect to the name/location of your API key.
 4. Modify the `prompts` list with the list of prompts you want to process.
 5. Modify the `engines` list with the list of engines you want to use.
 6. Modify the `temperatures` list with the list of temperatures you want to use.
-7. Run the script and get the output saved in an Excel file named "output.xlsx".
+7. Modify the number in the range() for the "iterations" with the number of times you want to run each of these combinations.
+8. Run the script and get the output saved in an Excel file named "output.xlsx". Each time you run this, it will read in and append to that file.
 
 ## Model and Temperature Parameters
 
